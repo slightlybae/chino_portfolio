@@ -1,11 +1,72 @@
-.selector-for-some-widget {
-    box-sizing: content-box;
-  }
+* {
+  box-sizing: border-box;
+}
 
-.girlimg{
-  width: 540px;
+header {
+  background-image: url("/Images/image5.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#girlimg {
+  width: 250px;
   height: auto;
-}  
-.container{
-  align-content: left;
+}
+.jumb {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.jumbotron {
+  height: 50vh;
+}
+
+.jumbotron-inner {
+  height: 100%;
+  align-items: center;
+}
+
+/* @keyframes animate-aboutme {
+  from {margin-right: -20%;}
+  to {margin-right: 0%;}
+  
+}
+.aboutme{
+  animation-name: animate-aboutme;
+  animation-duration: 5s;
+  animation-timing-function: ease;
+ 
+  
+} */
+.skillsection {
+  display: flex;
+  justify-content: space-evenly;
+  animation-name: animate-skillsection;
+  animation-duration: 20s;
+}
+
+.skill {
+  background-color: rgb(202, 157, 157);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding-top: 15px;
+  font-size: small;
+ 
+}
+
+ @media screen and (min-width: 520px) {
+  .skill {
+    width: 100px;
+    height: 100px;
+    font-size: larger;
+    font-weight: bold;
+    padding-top: 35px;
+  } 
+}
+
+.Pcard{
+  display: flexbox;
+  justify-content: space-evenly;
 }
